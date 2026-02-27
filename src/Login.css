@@ -1,0 +1,41 @@
+.lm-container{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: linear-gradient(180deg,#f8f6ff 0%, #fff 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:24px;
+}
+
+.lm-card{
+  width:100%;
+  max-width:480px;
+  background: #ffffff;
+  border-radius:14px;
+  padding:28px;
+  box-shadow: 0 12px 36px rgba(123,97,247,0.12);
+  border: 1px solid rgba(123,97,247,0.06);
+}
+
+.lm-title{ color:#6b46c1; margin:0; text-align:center; font-size:28px }
+.lm-sub{ color:#6b46c1; text-align:center; margin:6px 0 18px 0; opacity:0.9 }
+
+.lm-form{ display:flex; flex-direction:column; gap:12px }
+.lm-form label{ font-weight:700; font-size:13px; color:#3b3054 }
+.lm-form input{ padding:11px 12px; border-radius:10px; border:1px solid rgba(59,48,84,0.08); font-size:14px }
+.lm-form input:focus{ outline:none; box-shadow: 0 10px 30px rgba(107,70,193,0.12); border-color: #7b61f7 }
+
+.lm-dropdown{ position:relative }
+.lm-dropdown-toggle{ width:100%; padding:11px 12px; border-radius:10px; text-align:left; background:linear-gradient(90deg,#fff,#fbf8ff); border:1px solid rgba(59,48,84,0.06); display:flex; justify-content:space-between; align-items:center; cursor:pointer }
+.lm-dropdown-menu{ margin-top:8px; display:flex; flex-direction:column; gap:8px }
+.lm-dropdown-item{ padding:10px 12px; border-radius:10px; font-weight:700; color:white; cursor:pointer }
+.lm-dropdown-item:nth-child(1){ background: linear-gradient(90deg,#9f7aea,#6b46c1) }
+.lm-dropdown-item:nth-child(2){ background: linear-gradient(90deg,#7bdff6,#4fd1c5) }
+.lm-dropdown-item:nth-child(3){ background: linear-gradient(90deg,#a78bfa,#7b61f7) }
+.lm-dropdown-item:nth-child(4){ background: linear-gradient(90deg,#fda4af,#f973a9) }
+.lm-dropdown-item:hover{ transform:translateY(-3px); box-shadow:0 10px 30px rgba(105,95,205,0.12) }
+
+.lm-submit{ margin-top:8px; padding:12px; border-radius:12px; border:none; background: linear-gradient(90deg,#7b61f7,#a78bfa); color:white; font-weight:800; cursor:pointer; box-shadow:0 12px 30px rgba(123,97,247,0.18) }
+
+@media (max-width:480px){ .lm-card{ padding:18px } }
