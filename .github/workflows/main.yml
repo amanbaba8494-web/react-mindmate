@@ -22,6 +22,9 @@ jobs:
           node-version: 18
 
       - run: npm install
+
+      - run: chmod +x node_modules/.bin/react-scripts
+
       - run: PUBLIC_URL=/react-mindmate npm run build
 
       - uses: actions/upload-pages-artifact@v3
@@ -31,9 +34,6 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - uses: actions/deploy-pages@v4
