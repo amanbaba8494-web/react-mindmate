@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mindmate/static/css/main.688fabf6.css",
-    "main.js": "/mindmate/static/js/main.226081e6.js",
-    "static/js/453.bcbec09d.chunk.js": "/mindmate/static/js/453.bcbec09d.chunk.js",
-    "index.html": "/mindmate/index.html",
-    "main.688fabf6.css.map": "/mindmate/static/css/main.688fabf6.css.map",
-    "main.226081e6.js.map": "/mindmate/static/js/main.226081e6.js.map",
-    "453.bcbec09d.chunk.js.map": "/mindmate/static/js/453.bcbec09d.chunk.js.map"
+    "main.css": "/react-mindmate/static/css/main.688fabf6.css",
+    "main.js": "/react-mindmate/static/js/main.6c9cf982.js",
+    "static/js/453.bcbec09d.chunk.js": "/react-mindmate/static/js/453.bcbec09d.chunk.js",
+    "index.html": "/react-mindmate/index.html",
+    "main.688fabf6.css.map": "/react-mindmate/static/css/main.688fabf6.css.map",
+    "main.6c9cf982.js.map": "/react-mindmate/static/js/main.6c9cf982.js.map",
+    "453.bcbec09d.chunk.js.map": "/react-mindmate/static/js/453.bcbec09d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.688fabf6.css",
-    "static/js/main.226081e6.js"
+    "static/js/main.6c9cf982.js"
   ]
 }
